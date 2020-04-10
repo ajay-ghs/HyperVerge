@@ -1,0 +1,36 @@
+extends layout
+
+block content
+  h1 Welcome to BusApp
+  p hello User please use the end points.
+  p get /api/opentickets
+  p get /api/closedTickets
+  p get /api/ticketDetails
+  p send id in body in json format 
+  
+  p  _id  : id value
+  
+  p get /api/ticketStatus/(enter the seat number)
+  p post /api/book 
+  p in body send data in json format
+  
+  p name : " name ",
+  p age : age,
+  p gender : " gender "
+  
+  p put /api/updateBooking
+  p get id using closed tickets
+  p then send put request with updated data in body in json format
+  
+  p key : value
+  
+  p delete /api/adminReset
+  p send credentials in body in json format
+  
+  p "admin" : "root",
+  p "password" : "1234"
+  
+  p delete /api/deleteBooking
+  p send id in body in json format
+   
+  p "_id" : "id value"
